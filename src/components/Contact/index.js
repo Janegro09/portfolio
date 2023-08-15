@@ -128,7 +128,6 @@ const Contact = () => {
   //hooks
   const [open, setOpen] = React.useState('hidden');
   const form = useRef();
-  console.log(open)
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_t24daip', 'template_vso1rkb', form.current, 'elqKDzU9D5iWKzLEk')
@@ -142,8 +141,6 @@ const Contact = () => {
       });
   }
 
-
-
   return (
     <Container>
       <Wrapper>
@@ -151,7 +148,7 @@ const Contact = () => {
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput required placeholder="Your Email" name="user_email" />
+          <ContactInput required type="email" placeholder="Your Email" name="user_email" />
           <ContactInput required placeholder="Your Name" name="user_name" />
           <ContactInput required placeholder="Subject" name="user_subject" />
           <ContactInputMessage required placeholder="Message" rows="4" name="message" />
