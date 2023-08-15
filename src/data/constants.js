@@ -241,7 +241,7 @@ export const experiences = [
     img: "https://upload.wikimedia.org/wikipedia/commons/8/83/Cablevisi%C3%B3n_logo.svg",
     role: "Functional Analist",
     company: "Cablevision",
-    date: "June 2015 - August 2018",
+    date: "Oct 2015 - Mar 2018",
     desc: "I was developing tasks as a functional analyst, planning meetings, creating tasks on the dashboard, analyzing the product as a product manager and product owner",
     skills: [
       "Excel",
