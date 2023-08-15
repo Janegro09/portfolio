@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Snackbar } from '@mui/material';
+import { Alert, Snackbar } from '@mui/material';
 
 const Container = styled.div`
 display: flex;
@@ -126,14 +126,14 @@ const ContactButton = styled.input`
 const Contact = () => {
 
   //hooks
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState('hidden');
   const form = useRef();
-
+  console.log(open)
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_t24daip', 'template_vso1rkb', form.current, 'elqKDzU9D5iWKzLEk')
       .then((result) => {
-        setOpen(true);
+        setOpen('visible');
         console.log(result)
         console.log("Enviado")
         form.current.reset();
@@ -157,13 +157,20 @@ const Contact = () => {
           <ContactInputMessage required placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
-        <Snackbar
-          open={open}
-          autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
-          message="Email sent successfully!"
+          <Alert 
+          variant="filled" 
           severity="success"
-        />
+          closeText='x'
+          onClose={()=>setOpen('hidden')}
+          sx={{
+            visibility: open,
+            zIndex:15555555,
+            display:'flex',
+            position:'fixed',
+            bottom: 24,
+            left: 24,
+            right: 'auto'}}
+            >Mail sent successfully!</Alert>
       </Wrapper>
     </Container>
   )

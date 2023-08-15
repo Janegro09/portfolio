@@ -6,6 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
+  z-index:-1;
   width: 100%;
   padding: 2rem 0;
   display: flex;
@@ -19,7 +20,7 @@ const FooterWrapper = styled.footer`
   max-width: 1200px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 14px; 
   align-items: center;
   padding: 1rem;
   color: ${({ theme }) => theme.text_primary};
