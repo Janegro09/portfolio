@@ -1,8 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import { useRef } from 'react';
+import { useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { Alert, Snackbar } from '@mui/material';
+import ReactGA from 'react-ga';
+
+useEffect(() => {
+  ReactGA.pageview(window.location.pathname)
+}, [])
 
 const Container = styled.div`
 display: flex;
@@ -124,10 +129,15 @@ const ContactButton = styled.input`
 
 
 const Contact = () => {
-
   //hooks
   const [open, setOpen] = React.useState('hidden');
   const form = useRef();
+  // ReactGA.event({
+  //   category: NavItems.name,
+  //   action:"",
+  //   label:"",
+  //   value:""
+  // })
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_t24daip', 'template_vso1rkb', form.current, 'elqKDzU9D5iWKzLEk')
