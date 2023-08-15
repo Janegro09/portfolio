@@ -1,7 +1,7 @@
 {
   "name": "rishav-chanda-portfolio",
   "version": "0.1.0",
-  "homepage": "https://janegro09.github.io/portfolio",
+  "homepage": "https://janegro09.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
