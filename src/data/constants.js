@@ -316,7 +316,7 @@ export const projects = [
     description:
       "The team that I belong designed and developed the EQA project, a project management app that manage users and teams stay organized and complete on Call Center Metrics. Administrator can login, and search users, manage monitorings, paritures, export customized files and has integration with other apis",
     image:
-      "https://i.ibb.co/VL4VxKG/eqa2.png",
+      "https://i.ibb.co/8896MXL/eqa2.png",
     tags: [
       "React Js",
       "MongoDb",
