@@ -5,10 +5,6 @@ import emailjs from '@emailjs/browser';
 import { Alert, Snackbar } from '@mui/material';
 import ReactGA from 'react-ga';
 
-useEffect(() => {
-  ReactGA.pageview(window.location.pathname)
-}, [])
-
 const Container = styled.div`
 display: flex;
 flex-direction: column;
