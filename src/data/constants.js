@@ -281,7 +281,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://assets.utnba.centrodeelearning.com/public-api/files/3d4375c16192f87874b4d302da32faa5/images",
+    img: "https://i.ibb.co/98H09VC/learning.jpg",
     school: "Universidad Tecnologica Nacional",
     date: "Feb 2021 - Sep 2021",
     grade: "90 %",
@@ -290,7 +290,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://i.ibb.co/98H09VC/learning.jpg",
+    img: "https://i.ibb.co/g68rc6z/udemy.jpg",
     school: "Udemy",
     date: "Apr 2021 - Ago 2021",
     grade: "100%",
@@ -299,7 +299,7 @@ export const education = [
   },
   {
     id: 3,
-    img: "https://assets.utnba.centrodeelearning.com/public-api/files/3d4375c16192f87874b4d302da32faa5/images",
+    img: "https://i.ibb.co/98H09VC/learning.jpg",
     school: "Universidad Tecnologica Nacional",
     date: "Apr 2019 - Nov 2020",
     grade: "90%",
