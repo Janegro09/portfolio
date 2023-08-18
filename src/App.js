@@ -30,7 +30,11 @@ const Wrapper = styled.div`
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `
-
+const WrapperFooter = styled.div`
+  background: linear-gradient(38.73deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0,0.125) 100%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 0, 0, 0.15) 100%);
+  width: 100%;
+  clip-path: polygon(38% 0, 66% 9%, 100% 0, 100% 70%, 100% 100%, 0 100%, 0% 70%, 0 10%);
+`
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
@@ -48,9 +52,11 @@ function App() {
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
-            <Contact />
           </Wrapper>
+          <Contact />
+          <WrapperFooter>
           <Footer />
+          </WrapperFooter>
           {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           }

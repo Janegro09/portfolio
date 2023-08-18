@@ -6,7 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
-  z-index:-1;
+  z-index:-1000;
   width: 100%;
   padding: 2rem 0;
   display: flex;
