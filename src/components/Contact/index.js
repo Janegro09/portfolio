@@ -126,7 +126,7 @@ const ContactButton = styled.input`
 
 const Contact = () => {
   //hooks
-  const [open, setOpen] = React.useState('visible');
+  const [open, setOpen] = React.useState('hidden');
   const form = useRef();
   // ReactGA.event({
   //   category: NavItems.name,
