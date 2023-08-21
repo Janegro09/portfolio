@@ -276,7 +276,7 @@ export const education = [
     school: "Universidad Tecnologica Nacional - Avellaneda",
     date: "Sep 2020 - Dic 2024",
     grade: "-",
-    desc: "Take a very complete university degree with a lot of content, great teamwork and excellent teachers. In this diploma I specialized in advanced knowledge of NodeJS and React JS (MERN).",
+    desc: "Information technology has allowed companies to improve the quality of their services, and increase efficiency in relation to the development of internal activities as well as new businesses. For this I chose to professionalize the contents that I was learning and decided to study the University Technician in Programming at the UTN.",
     degree: "Tecnicatura en Programación Universitaria",
   },
   {
