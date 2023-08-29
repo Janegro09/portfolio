@@ -122,6 +122,11 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+      {
+        name: ".NET",
+        image:
+          "https://i.ibb.co/d0tFQjd/pngegg.png",
+      },
     ],
   },
   {
@@ -137,11 +142,11 @@ export const skills = [
       //   image:
       //     "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
       // },
-      // {
-      //   name: "XML",
-      //   image:
-      //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      // },
+      {
+        name: "XML",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+      },
       {
         name: "Android Studio",
         image:
