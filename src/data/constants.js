@@ -137,16 +137,16 @@ export const skills = [
       //   image:
       //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       // },
-      // {
-      //   name: "Kotlin",
-      //   image:
-      //     "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-      // },
       {
-        name: "XML",
+        name: "Kotlin",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
       },
+      // {
+      //   name: "XML",
+      //   image:
+      //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+      // },
       {
         name: "Android Studio",
         image:
